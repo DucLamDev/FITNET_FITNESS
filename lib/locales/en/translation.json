@@ -1,0 +1,320 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "joinNow": "Join Now",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "backToWebsite": "Back to Website"
+  },
+  "hero": {
+    "welcome": "WELCOME TO FITNET FITNESS",
+    "title": "BOOK FREE",
+    "titleHighlight": "TRIAL SESSION",
+    "description": "Experience your first session completely FREE at Fitnet Fitness - Hanoi. No language limits, no strength limits! Achieve your fitness goals with our professional trainers.",
+    "bookNow": "Book Free Trial Now",
+    "watchVideo": "Watch Video",
+    "stats": {
+      "members": "Members",
+      "experience": "Years Experience",
+      "trainers": "Expert Trainers"
+    }
+  },
+  "about": {
+    "title": "ABOUT US",
+    "heading": "WE ARE",
+    "headingHighlight": "FITNET FITNESS",
+    "description1": "Located at Floor 7, No. 23, Alley 89 Pham Van Dong, Cau Giay, Hanoi, Fitnet Fitness is your premier destination for achieving fitness excellence. We believe in breaking barriers - no language limits, no strength limits!",
+    "description2": "Our multilingual facility welcomes members from all backgrounds, providing world-class equipment, expert trainers, and a supportive community to help you reach your fitness goals.",
+    "features": {
+      "equipment": {
+        "title": "Modern Equipment",
+        "description": "State-of-the-art fitness equipment from leading brands"
+      },
+      "trainers": {
+        "title": "Expert Trainers",
+        "description": "Certified professionals with years of experience"
+      },
+      "results": {
+        "title": "Proven Results",
+        "description": "Thousands of success stories and transformations"
+      },
+      "community": {
+        "title": "Community",
+        "description": "Join a supportive and motivating fitness family"
+      }
+    },
+    "years": "Years"
+  },
+  "services": {
+    "title": "WHAT WE OFFER",
+    "heading": "OUR",
+    "headingHighlight": "SERVICES",
+    "description": "Discover a wide range of fitness services designed to help you achieve your health and wellness goals",
+    "items": {
+      "personalTraining": {
+        "title": "Personal Training",
+        "description": "One-on-one coaching with certified trainers to achieve your specific fitness goals"
+      },
+      "groupClasses": {
+        "title": "Group Classes",
+        "description": "High-energy group workouts including HIIT, CrossFit, Zumba, and more"
+      },
+      "nutrition": {
+        "title": "Nutrition Consulting",
+        "description": "Personalized meal plans and dietary guidance from nutrition experts"
+      },
+      "yoga": {
+        "title": "Yoga & Meditation",
+        "description": "Find inner peace and flexibility with our yoga and meditation sessions"
+      },
+      "cardio": {
+        "title": "Cardio Training",
+        "description": "State-of-the-art cardio equipment and specialized cardio programs"
+      },
+      "weightManagement": {
+        "title": "Weight Management",
+        "description": "Comprehensive programs for healthy weight loss or muscle gain"
+      }
+    },
+    "learnMore": "Learn More"
+  },
+  "pricing": {
+    "title": "MEMBERSHIP PLANS",
+    "heading": "CHOOSE YOUR",
+    "headingHighlight": "PLAN",
+    "description": "Select the perfect membership plan that fits your fitness goals and budget",
+    "popular": "POPULAR",
+    "per": "per",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "description": "Perfect for beginners starting their fitness journey",
+        "period": "month",
+        "features": [
+          "Access to gym equipment",
+          "Locker room access",
+          "Free WiFi",
+          "Basic fitness assessment",
+          "1 guest pass per month"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "Most popular choice for serious fitness enthusiasts",
+        "period": "6 months",
+        "features": [
+          "Everything in Basic",
+          "4 personal training sessions",
+          "Access to all group classes",
+          "Nutrition consultation",
+          "Free gym merchandise",
+          "Priority booking",
+          "3 guest passes per month"
+        ]
+      },
+      "vip": {
+        "name": "VIP",
+        "description": "Ultimate package with exclusive benefits",
+        "period": "year",
+        "features": [
+          "Everything in Premium",
+          "Unlimited personal training",
+          "Free supplements",
+          "Spa & sauna access",
+          "Private locker",
+          "Exclusive VIP events",
+          "Unlimited guest passes",
+          "Free parking"
+        ]
+      }
+    },
+    "signUp": "Get Started",
+    "note": "All plans include access to modern facilities and equipment. Cancel anytime.",
+    "contactNote": "Contact us at",
+    "contactNote2": "for FREE trial booking or custom corporate packages"
+  },
+  "testimonials": {
+    "title": "TESTIMONIALS",
+    "heading": "WHAT OUR",
+    "headingHighlight": "MEMBERS SAY",
+    "description": "Don't just take our word for it - hear from our satisfied members"
+  },
+  "gallery": {
+    "title": "OUR FACILITY",
+    "heading": "GYM",
+    "headingHighlight": "GALLERY",
+    "description": "Take a virtual tour of our state-of-the-art facility and equipment",
+    "areas": {
+      "cardio": "Cardio Zone",
+      "weights": "Weight Training Area",
+      "groupClasses": "Group Classes",
+      "personalTraining": "Personal Training",
+      "yoga": "Yoga Studio",
+      "functional": "Functional Training",
+      "meditation": "Meditation Room",
+      "boxing": "Boxing Area"
+    }
+  },
+  "footer": {
+    "description": "Transform your body and mind with world-class facilities and expert trainers. No language limits, no strength limits!",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactUs": "Contact Us",
+    "copyright": "All rights reserved. | Designed with ❤️ for fitness enthusiasts"
+  },
+  "contact": {
+    "title": "GET IN",
+    "titleHighlight": "TOUCH",
+    "description": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "info": {
+      "title": "Contact Information",
+      "description": "Reach out to us through any of the following channels. Our team is ready to assist you.",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Opening Hours",
+      "hoursValue": "Mon - Sun: 6:00 AM - 10:00 PM"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Your Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "namePlaceholder": "John Doe",
+      "emailPlaceholder": "john@example.com",
+      "subjectPlaceholder": "How can we help you?",
+      "messagePlaceholder": "Tell us more about your inquiry...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "errors": {
+        "nameRequired": "Name is required",
+        "nameMin": "Name must be at least 2 characters",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "messageRequired": "Message is required",
+        "messageMin": "Message must be at least 10 characters"
+      },
+      "success": "Message sent successfully! We will get back to you soon.",
+      "error": "Failed to send message. Please try again."
+    }
+  },
+  "register": {
+    "title": "JOIN",
+    "titleHighlight": "FITNET FITNESS",
+    "description": "Fill out the form below to book your free trial session at Fitnet Fitness - Hanoi",
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "gender": "Gender",
+      "membershipPlan": "Membership Plan",
+      "paymentMethod": "Payment Method (Optional)",
+      "notes": "Additional Notes (Optional)",
+      "fullNamePlaceholder": "John Doe",
+      "emailPlaceholder": "john@example.com",
+      "phonePlaceholder": "0346676169",
+      "notesPlaceholder": "Any special requirements or questions?",
+      "genderOptions": {
+        "select": "Select Gender",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "planOptions": {
+        "select": "Select Plan",
+        "basic": "Basic - 299,000 VND/month",
+        "premium": "Premium - 799,000 VND/6 months",
+        "vip": "VIP - 1,499,000 VND/year"
+      },
+      "paymentOptions": {
+        "select": "Select Payment Method",
+        "cash": "Cash",
+        "credit": "Credit Card",
+        "debit": "Debit Card",
+        "transfer": "Bank Transfer",
+        "ewallet": "E-Wallet"
+      },
+      "submit": "Complete Registration",
+      "submitting": "Processing...",
+      "agreement": "By registering, you agree to our Terms of Service and Privacy Policy",
+      "errors": {
+        "fullNameRequired": "Full name is required",
+        "fullNameMin": "Name must be at least 2 characters",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "phoneRequired": "Phone number is required",
+        "phoneInvalid": "Please enter a valid phone number (10-15 digits)",
+        "genderRequired": "Please select your gender",
+        "planRequired": "Please select a membership plan"
+      },
+      "success": "Registration successful! Welcome to FitNet Fitness!",
+      "error": "Registration failed. Please try again."
+    }
+  },
+  "dashboard": {
+    "title": "Admin Dashboard",
+    "overview": "Overview",
+    "members": "Members",
+    "messages": "Messages",
+    "stats": {
+      "total": "Total Members",
+      "active": "Active",
+      "pending": "Pending",
+      "expired": "Expired"
+    },
+    "planDistribution": "Membership Plans Distribution",
+    "recentMembers": "Recent Members",
+    "viewAll": "View All",
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "plan": "Plan",
+      "status": "Status",
+      "joinDate": "Join Date",
+      "actions": "Actions"
+    },
+    "membersManagement": "Members Management",
+    "addMember": "Add Member",
+    "search": "Search by name, email, or phone...",
+    "allStatus": "All Status",
+    "allPlans": "All Plans",
+    "statusOptions": {
+      "active": "Active",
+      "pending": "Pending",
+      "inactive": "Inactive",
+      "expired": "Expired"
+    },
+    "noMembers": "No members found",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete",
+    "deleteSuccess": "Member deleted successfully",
+    "deleteError": "Failed to delete member",
+    "updateSuccess": "Status updated successfully",
+    "updateError": "Failed to update status",
+    "fetchError": "Failed to fetch members"
+  },
+  "login": {
+    "title": "Admin Dashboard",
+    "subtitle": "Sign in to manage your gym",
+    "email": "Email Address",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signing": "Signing in...",
+    "demo": "Demo Credentials:",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 6 characters"
+    },
+    "success": "Login successful!",
+    "error": "Login failed. Please check your credentials."
+  }
+}

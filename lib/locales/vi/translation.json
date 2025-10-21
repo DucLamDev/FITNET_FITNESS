@@ -1,0 +1,320 @@
+{
+  "nav": {
+    "home": "Trang Chủ",
+    "about": "Về Chúng Tôi",
+    "services": "Dịch Vụ",
+    "pricing": "Bảng Giá",
+    "contact": "Liên Hệ",
+    "joinNow": "Đăng Ký Ngay",
+    "dashboard": "Quản Trị",
+    "logout": "Đăng Xuất",
+    "backToWebsite": "Về Trang Chủ"
+  },
+  "hero": {
+    "welcome": "CHÀO MỪNG ĐÉN VỚI FITNET FITNESS",
+    "title": "ĐẶT LỊCH TẬP THỬ ",
+    "titleHighlight": "MIỄN PHÍ",
+    "description": "Trải nghiệm buổi tập đầu tiên hoàn toàn MIỄN PHÍ tại Fitnet Fitness - Hà Nội. Không giới hạn ngôn ngữ, không giới hạn sức mạnh! Cùng đội ngũ huấn luyện viên chuyên nghiệp đạt được mục tiêu thể hình của bạn.",
+    "bookNow": "Đặt Lịch Tập Thử Ngay",
+    "watchVideo": "Xem Video",
+    "stats": {
+      "members": "Thành Viên",
+      "experience": "Năm Kinh Nghiệm",
+      "trainers": "HLV Chuyên Nghiệp"
+    }
+  },
+  "about": {
+    "title": "VỀ CHÚNG TÔI",
+    "heading": "CHÚNG TÔI LÀ",
+    "headingHighlight": "FITNET FITNESS",
+    "description1": "Tọa lạc tại Tầng 7, Số 23, Ngõ 89 Phạm Văn Đồng, Cầu Giấy, Hà Nội, Fitnet Fitness là điểm đến hàng đầu để bạn đạt được sự xuất sắc trong thể hình. Chúng tôi tin vào việc phá bỏ rào cản - không giới hạn ngôn ngữ, không giới hạn sức mạnh!",
+    "description2": "Cơ sở của chúng tôi chào đón hội viên từ mọi nguồn gốc với môi trường đa ngôn ngữ, cung cấp trang thiết bị đẳng cấp thế giới, huấn luyện viên chuyên nghiệp và cộng đồng hỗ trợ để giúp bạn đạt được mục tiêu thể hình của mình.",
+    "features": {
+      "equipment": {
+        "title": "Thiết Bị Hiện Đại",
+        "description": "Trang thiết bị tập luyện hiện đại từ các thương hiệu hàng đầu"
+      },
+      "trainers": {
+        "title": "Huấn Luyện Viên Chuyên Nghiệp",
+        "description": "Đội ngũ HLV được chứng nhận với nhiều năm kinh nghiệm"
+      },
+      "results": {
+        "title": "Kết Quả Đã Được Chứng Minh",
+        "description": "Hàng ngàn câu chuyện thành công và sự thay đổi ngoạn mục"
+      },
+      "community": {
+        "title": "Cộng Đồng",
+        "description": "Tham gia gia đình thể hình đầy động lực và hỗ trợ"
+      }
+    },
+    "years": "Năm"
+  },
+  "services": {
+    "title": "DỊCH VỤ CỦA CHÚNG TÔI",
+    "heading": "CÁC",
+    "headingHighlight": "DỊCH VỤ",
+    "description": "Khám phá đa dạng các dịch vụ thể hình được thiết kế để giúp bạn đạt được các mục tiêu sức khỏe và thể chất",
+    "items": {
+      "personalTraining": {
+        "title": "Huấn Luyện Cá Nhân",
+        "description": "Hướng dẫn 1-1 với HLV được chứng nhận để đạt được mục tiêu thể hình cụ thể của bạn"
+      },
+      "groupClasses": {
+        "title": "Lớp Tập Nhóm",
+        "description": "Các buổi tập nhóm đầy năng lượng bao gồm HIIT, CrossFit, Zumba và nhiều hơn nữa"
+      },
+      "nutrition": {
+        "title": "Tư Vấn Dinh Dưỡng",
+        "description": "Kế hoạch ăn uống cá nhân hóa và hướng dẫn chế độ ăn từ chuyên gia dinh dưỡng"
+      },
+      "yoga": {
+        "title": "Yoga & Thiền Định",
+        "description": "Tìm thấy sự bình yên nội tâm và sự linh hoạt với các buổi yoga và thiền định"
+      },
+      "cardio": {
+        "title": "Tập Cardio",
+        "description": "Thiết bị cardio hiện đại và các chương trình cardio chuyên biệt"
+      },
+      "weightManagement": {
+        "title": "Quản Lý Cân Nặng",
+        "description": "Chương trình toàn diện cho giảm cân lành mạnh hoặc tăng cơ"
+      }
+    },
+    "learnMore": "Tìm Hiểu Thêm"
+  },
+  "pricing": {
+    "title": "GÓI HỘI VIÊN",
+    "heading": "CHỌN",
+    "headingHighlight": "GÓI TẬP",
+    "description": "Chọn gói hội viên phù hợp với mục tiêu thể hình và ngân sách của bạn",
+    "popular": "PHỔ BIẾN",
+    "per": "mỗi",
+    "plans": {
+      "basic": {
+        "name": "Cơ Bản",
+        "description": "Hoàn hảo cho người mới bắt đầu hành trình thể hình",
+        "period": "tháng",
+        "features": [
+          "Truy cập thiết bị phòng gym",
+          "Truy cập phòng thay đồ",
+          "WiFi miễn phí",
+          "Đánh giá thể lực cơ bản",
+          "1 thẻ khách mời/tháng"
+        ]
+      },
+      "premium": {
+        "name": "Cao Cấp",
+        "description": "Lựa chọn phổ biến nhất cho người đam mê thể hình",
+        "period": "6 tháng",
+        "features": [
+          "Tất cả trong gói Cơ Bản",
+          "4 buổi huấn luyện cá nhân",
+          "Truy cập tất cả lớp nhóm",
+          "Tư vấn dinh dưỡng",
+          "Quà tặng phòng gym",
+          "Ưu tiên đặt lịch",
+          "3 thẻ khách mời/tháng"
+        ]
+      },
+      "vip": {
+        "name": "VIP",
+        "description": "Gói đặc biệt với quyền lợi độc quyền",
+        "period": "năm",
+        "features": [
+          "Tất cả trong gói Cao Cấp",
+          "Huấn luyện cá nhân không giới hạn",
+          "Thực phẩm bổ sung miễn phí",
+          "Truy cập Spa & xông hơi",
+          "Tủ đồ riêng",
+          "Sự kiện VIP độc quyền",
+          "Thẻ khách mời không giới hạn",
+          "Đỗ xe miễn phí"
+        ]
+      }
+    },
+    "signUp": "Đăng Ký Ngay",
+    "note": "Tất cả các gói đều bao gồm truy cập thiết bị và cơ sở hiện đại. Hủy bất cứ lúc nào.",
+    "contactNote": "Liên hệ với chúng tôi theo số",
+    "contactNote2": "để đăng ký tập thử MIỄN PHÍ hoặc nhận gói doanh nghiệp tùy chỉnh"
+  },
+  "testimonials": {
+    "title": "ĐÁNH GIÁ CỦA HỘI VIÊN",
+    "heading": "HỘI VIÊN NÓI GÌ",
+    "headingHighlight": "VỀ CHÚNG TÔI",
+    "description": "Đừng chỉ tin lời chúng tôi - hãy nghe từ các hội viên hài lòng của chúng tôi"
+  },
+  "gallery": {
+    "title": "CƠ SỞ CỦA CHÚNG TÔI",
+    "heading": "THƯ VIỆN",
+    "headingHighlight": "ẢNH",
+    "description": "Khám phá cơ sở và trang thiết bị hiện đại của chúng tôi",
+    "areas": {
+      "cardio": "Khu Vực Cardio",
+      "weights": "Khu Tập Tạ Tự Do",
+      "groupClasses": "Lớp Tập Nhóm",
+      "personalTraining": "Huấn Luyện Cá Nhân",
+      "yoga": "Phòng Yoga",
+      "functional": "Tập Functional",
+      "meditation": "Phòng Thiền Định",
+      "boxing": "Khu Vực Boxing"
+    }
+  },
+  "footer": {
+    "description": "Biến đổi cơ thể và tinh thần với cơ sở đẳng cấp thế giới và huấn luyện viên chuyên nghiệp. Không giới hạn ngôn ngữ, không giới hạn sức mạnh!",
+    "quickLinks": "Liên Kết Nhanh",
+    "ourServices": "Dịch Vụ Của Chúng Tôi",
+    "contactUs": "Liên Hệ Với Chúng Tôi",
+    "copyright": "Bảo lưu mọi quyền. | Thiết kế với ❤️ cho người đam mê thể hình"
+  },
+  "contact": {
+    "title": "LIÊN HỆ",
+    "titleHighlight": "VỚI CHÚNG TÔI",
+    "description": "Có câu hỏi? Chúng tôi muốn nghe từ bạn. Gửi tin nhắn cho chúng tôi và chúng tôi sẽ phản hồi sớm nhất có thể.",
+    "info": {
+      "title": "Thông Tin Liên Hệ",
+      "description": "Liên hệ với chúng tôi qua bất kỳ kênh nào sau đây. Đội ngũ của chúng tôi sẵn sàng hỗ trợ bạn.",
+      "address": "Địa Chỉ",
+      "phone": "Điện Thoại",
+      "email": "Email",
+      "hours": "Giờ Mở Cửa",
+      "hoursValue": "Thứ 2 - Chủ Nhật: 6:00 SÁNG - 10:00 TỐI"
+    },
+    "form": {
+      "title": "Gửi Tin Nhắn Cho Chúng Tôi",
+      "name": "Họ và Tên",
+      "email": "Địa Chỉ Email",
+      "subject": "Tiêu Đề",
+      "message": "Nội Dung",
+      "namePlaceholder": "Nguyễn Văn A",
+      "emailPlaceholder": "email@example.com",
+      "subjectPlaceholder": "Chúng tôi có thể giúp gì cho bạn?",
+      "messagePlaceholder": "Nêu chi tiết thêm về câu hỏi của bạn...",
+      "send": "Gửi Tin Nhắn",
+      "sending": "Đang gửi...",
+      "errors": {
+        "nameRequired": "Vui lòng nhập họ và tên",
+        "nameMin": "Tên phải có ít nhất 2 ký tự",
+        "emailRequired": "Vui lòng nhập email",
+        "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+        "messageRequired": "Vui lòng nhập nội dung tin nhắn",
+        "messageMin": "Tin nhắn phải có ít nhất 10 ký tự"
+      },
+      "success": "Gửi tin nhắn thành công! Chúng tôi sẽ liên hệ lại sớm.",
+      "error": "Gửi tin nhắn thất bại. Vui lòng thử lại."
+    }
+  },
+  "register": {
+    "title": "ĐĂNG KÝ",
+    "titleHighlight": "TẬP THỬ MIỄN PHÍ",
+    "description": "Điền vào biểu mẫu dưới đây để đặt lịch tập thử miễn phí tại Fitnet Fitness - Hà Nội",
+    "form": {
+      "fullName": "Họ và Tên",
+      "email": "Địa Chỉ Email",
+      "phone": "Số Điện Thoại",
+      "gender": "Giới Tính",
+      "membershipPlan": "Gói Hội Viên",
+      "paymentMethod": "Phương Thức Thanh Toán (Tùy chọn)",
+      "notes": "Ghi Chú Thêm (Tùy chọn)",
+      "fullNamePlaceholder": "Nguyễn Văn A",
+      "emailPlaceholder": "email@example.com",
+      "phonePlaceholder": "0346676169",
+      "notesPlaceholder": "Có yêu cầu đặc biệt hoặc câu hỏi nào không?",
+      "genderOptions": {
+        "select": "Chọn giới tính",
+        "male": "Nam",
+        "female": "Nữ",
+        "other": "Khác"
+      },
+      "planOptions": {
+        "select": "Chọn gói tập",
+        "basic": "Cơ Bản - 299,000 VND/tháng",
+        "premium": "Cao Cấp - 799,000 VND/6 tháng",
+        "vip": "VIP - 1,499,000 VND/năm"
+      },
+      "paymentOptions": {
+        "select": "Chọn phương thức thanh toán",
+        "cash": "Tiền mặt",
+        "credit": "Thẻ tín dụng",
+        "debit": "Thẻ ghi nợ",
+        "transfer": "Chuyển khoản",
+        "ewallet": "Ví điện tử"
+      },
+      "submit": "Hoàn Tất Đăng Ký",
+      "submitting": "Đang xử lý...",
+      "agreement": "Bằng cách đăng ký, bạn đồng ý với Điều khoản dịch vụ và Chính sách bảo mật của chúng tôi",
+      "errors": {
+        "fullNameRequired": "Vui lòng nhập họ và tên",
+        "fullNameMin": "Tên phải có ít nhất 2 ký tự",
+        "emailRequired": "Vui lòng nhập email",
+        "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+        "phoneRequired": "Vui lòng nhập số điện thoại",
+        "phoneInvalid": "Vui lòng nhập số điện thoại hợp lệ (10-15 chữ số)",
+        "genderRequired": "Vui lòng chọn giới tính",
+        "planRequired": "Vui lòng chọn gói hội viên"
+      },
+      "success": "Đăng ký thành công! Chào mừng đến với FitNet Fitness!",
+      "error": "Đăng ký thất bại. Vui lòng thử lại."
+    }
+  },
+  "dashboard": {
+    "title": "Trang Quản Trị",
+    "overview": "Tổng Quan",
+    "members": "Hội Viên",
+    "messages": "Tin Nhắn",
+    "stats": {
+      "total": "Tổng Hội Viên",
+      "active": "Đang Hoạt Động",
+      "pending": "Chờ Xử Lý",
+      "expired": "Hết Hạn"
+    },
+    "planDistribution": "Phân Bố Gói Hội Viên",
+    "recentMembers": "Hội Viên Mới",
+    "viewAll": "Xem Tất Cả",
+    "table": {
+      "name": "Họ Tên",
+      "email": "Email",
+      "phone": "Số ĐT",
+      "plan": "Gói",
+      "status": "Trạng Thái",
+      "joinDate": "Ngày Tham Gia",
+      "actions": "Hành Động"
+    },
+    "membersManagement": "Quản Lý Hội Viên",
+    "addMember": "Thêm Hội Viên",
+    "search": "Tìm kiếm theo tên, email hoặc số điện thoại...",
+    "allStatus": "Tất cả trạng thái",
+    "allPlans": "Tất cả gói",
+    "statusOptions": {
+      "active": "Đang hoạt động",
+      "pending": "Chờ xử lý",
+      "inactive": "Không hoạt động",
+      "expired": "Hết hạn"
+    },
+    "noMembers": "Không tìm thấy hội viên nào",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "deleteConfirm": "Bạn có chắc chắn muốn xóa",
+    "deleteSuccess": "Xóa hội viên thành công",
+    "deleteError": "Không thể xóa hội viên",
+    "updateSuccess": "Cập nhật trạng thái thành công",
+    "updateError": "Không thể cập nhật trạng thái",
+    "fetchError": "Không thể tải danh sách hội viên"
+  },
+  "login": {
+    "title": "Trang Quản Trị",
+    "subtitle": "Đăng nhập để quản lý phòng gym của bạn",
+    "email": "Địa Chỉ Email",
+    "password": "Mật Khẩu",
+    "signIn": "Đăng Nhập",
+    "signing": "Đang đăng nhập...",
+    "demo": "Tài khoản Demo:",
+    "errors": {
+      "emailRequired": "Vui lòng nhập email",
+      "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+      "passwordRequired": "Vui lòng nhập mật khẩu",
+      "passwordMin": "Mật khẩu phải có ít nhất 6 ký tự"
+    },
+    "success": "Đăng nhập thành công!",
+    "error": "Đăng nhập thất bại. Vui lòng kiểm tra thông tin đăng nhập."
+  }
+}
