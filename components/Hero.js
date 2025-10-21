@@ -45,7 +45,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="heading-1 mb-6 text-white"
+              className="heading-3 mb-6 text-white"
             >
               <span className="block leading-tight">{t('hero.title')}</span>
               <span className="text-gradient animate-gradient-x block mt-2">
