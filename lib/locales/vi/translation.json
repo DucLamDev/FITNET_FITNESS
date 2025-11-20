@@ -316,5 +316,401 @@
     },
     "success": "Đăng nhập thành công!",
     "error": "Đăng nhập thất bại. Vui lòng kiểm tra thông tin đăng nhập."
+  },
+  "bmi": {
+    "title": "TÍNH CHỈ SỐ BMI",
+    "heading": "Tính Chỉ Số",
+    "headingHighlight": "Khối Cơ Thể",
+    "description": "Khám phá chỉ số BMI của bạn và nhận các khuyến nghị sức khỏe cá nhân hóa dựa trên số đo cơ thể",
+    "helper": "Nhập chiều cao và cân nặng của bạn để tính BMI",
+    "heightLabel": "Chiều Cao",
+    "heightPlaceholder": "Nhập chiều cao của bạn",
+    "weightLabel": "Cân Nặng",
+    "weightPlaceholder": "Nhập cân nặng của bạn",
+    "calculate": "Tính BMI",
+    "result": "Kết Quả Của Bạn",
+    "bmiValue": "Chỉ Số BMI",
+    "recommendation": "Khuyến Nghị Sức Khỏe",
+    "validation": {
+      "completeFields": "Vui lòng điền đầy đủ thông tin",
+      "positiveValues": "Vui lòng nhập giá trị dương",
+      "realisticValues": "Vui lòng nhập giá trị hợp lý"
+    },
+    "statusLabels": {
+      "underweight": "Thiếu Cân",
+      "normal": "Cân Nặng Bình Thường",
+      "overweight": "Thừa Cân",
+      "obese": "Béo Phì",
+      "pending": "Tính toán để xem kết quả"
+    },
+    "statusDescriptions": {
+      "underweight": "Chỉ số BMI của bạn cho thấy bạn có thể bị thiếu cân. Hãy cân nhắc tư vấn với chuyên gia dinh dưỡng để xây dựng kế hoạch tăng cân lành mạnh.",
+      "normal": "Chúc mừng! Chỉ số BMI của bạn nằm trong phạm vi khỏe mạnh. Duy trì lối sống hiện tại với tập luyện đều đặn và dinh dưỡng cân bằng.",
+      "overweight": "Chỉ số BMI của bạn cho thấy bạn có thể bị thừa cân. Hãy cân nhắc áp dụng chế độ ăn lành mạnh hơn và tăng cường hoạt động thể chất.",
+      "obese": "Chỉ số BMI của bạn cho thấy béo phì. Chúng tôi khuyến nghị tư vấn với các chuyên gia y tế để có kế hoạch sức khỏe toàn diện."
+    },
+    "mealPlan": {
+      "title": "HƯỚNG DẪN DINH DƯỠNG",
+      "underweight": {
+        "heading": "để Tăng Cân",
+        "headingHighlight": "Thực Đơn",
+        "description": "Chế độ ăn giàu calo và dinh dưỡng giúp tăng cân lành mạnh",
+        "items": {
+          "breakfast": {
+            "title": "Bữa Sáng",
+            "calories": "600-700 calories",
+            "details": [
+              "Yến mạch với sữa đậm đặc, chuối, hạt điều",
+              "Bánh mì nguyên cám với bơ đậu phộng, trứng",
+              "Sinh tố protein với bơ, chuối, sữa",
+              "Sữa chua béo với granola và mật ong"
+            ]
+          },
+          "lunch": {
+            "title": "Bữa Trưa",
+            "calories": "700-800 calories",
+            "details": [
+              "Cơm trắng, thịt bò/gà, rau củ xào dầu",
+              "Mì Ý sốt kem với thịt bò băm",
+              "Cơm gà hấp với nước sốt béo",
+              "Cá hồi nướng với khoai tây nghiền bơ"
+            ]
+          },
+          "snack": {
+            "title": "Bữa Phụ",
+            "calories": "300-400 calories",
+            "details": [
+              "Hạt điều, hạnh nhân, óc chó",
+              "Sữa chua béo với trái cây",
+              "Bánh sandwich bơ đậu phộng",
+              "Sinh tố whey protein"
+            ]
+          },
+          "dinner": {
+            "title": "Bữa Tối",
+            "calories": "600-700 calories",
+            "details": [
+              "Thịt bò bít tết với khoai lang",
+              "Cá hồi nướng với cơm và rau",
+              "Mì Ý sốt cà chua với thịt",
+              "Gà nướng với quinoa và bơ"
+            ]
+          }
+        }
+      },
+      "normal": {
+        "heading": "để Duy Trì",
+        "headingHighlight": "Thực Đơn",
+        "description": "Chế độ ăn cân bằng giúp duy trì cân nặng và sức khỏe tối ưu",
+        "items": {
+          "breakfast": {
+            "title": "Bữa Sáng",
+            "calories": "400-500 calories",
+            "details": [
+              "Yến mạch với quả mọng và hạt",
+              "Trứng luộc với bánh mì nguyên cám",
+              "Sinh tố protein với rau xanh",
+              "Sữa chua Hy Lạp với granola"
+            ]
+          },
+          "lunch": {
+            "title": "Bữa Trưa",
+            "calories": "500-600 calories",
+            "details": [
+              "Gà nướng với cơm gạo lứt",
+              "Salad cá hồi với dầu ô liu",
+              "Phở gà ít dầu mỡ",
+              "Thịt bò nạc với rau củ"
+            ]
+          },
+          "snack": {
+            "title": "Bữa Phụ",
+            "calories": "150-200 calories",
+            "details": [
+              "Trái cây tươi",
+              "Hạt hỗn hợp (30g)",
+              "Sữa chua không đường",
+              "Rau củ với hummus"
+            ]
+          },
+          "dinner": {
+            "title": "Bữa Tối",
+            "calories": "400-500 calories",
+            "details": [
+              "Cá nướng với rau hấp",
+              "Ức gà với bông cải xanh",
+              "Đậu phụ xào rau",
+              "Salad protein với ức gà"
+            ]
+          }
+        }
+      },
+      "overweight": {
+        "heading": "để Giảm Cân",
+        "headingHighlight": "Thực Đơn",
+        "description": "Chế độ ăn ít calo, nhiều protein giúp giảm cân hiệu quả",
+        "items": {
+          "breakfast": {
+            "title": "Bữa Sáng",
+            "calories": "300-400 calories",
+            "details": [
+              "Trứng luộc với rau xanh",
+              "Yến mạch với sữa không đường",
+              "Sinh tố rau xanh protein",
+              "Sữa chua Hy Lạp với quả mọng"
+            ]
+          },
+          "lunch": {
+            "title": "Bữa Trưa",
+            "calories": "400-500 calories",
+            "details": [
+              "Ức gà nướng với salad",
+              "Cá hấp với rau củ luộc",
+              "Súp rau củ với đậu phụ",
+              "Cơm gạo lứt ít với thịt nạc"
+            ]
+          },
+          "snack": {
+            "title": "Bữa Phụ",
+            "calories": "100-150 calories",
+            "details": [
+              "Trái cây tươi (táo, cam)",
+              "Rau củ sống",
+              "Sữa chua không đường",
+              "Hạnh nhân (15-20 hạt)"
+            ]
+          },
+          "dinner": {
+            "title": "Bữa Tối",
+            "calories": "300-400 calories",
+            "details": [
+              "Cá nướng với rau hấp",
+              "Salad ức gà không dầu",
+              "Súp rau củ",
+              "Đậu phụ hấp với rau"
+            ]
+          }
+        }
+      },
+      "obese": {
+        "heading": "để Giảm Cân Nhanh",
+        "headingHighlight": "Thực Đơn",
+        "description": "Chế độ ăn kiểm soát calo nghiêm ngặt, tập trung protein và rau",
+        "items": {
+          "breakfast": {
+            "title": "Bữa Sáng",
+            "calories": "250-350 calories",
+            "details": [
+              "Trứng luộc + rau xanh luộc",
+              "Sữa chua Hy Lạp không đường",
+              "Yến mạch ít đường với quả mọng",
+              "Sinh tố rau xanh không đường"
+            ]
+          },
+          "lunch": {
+            "title": "Bữa Trưa",
+            "calories": "350-450 calories",
+            "details": [
+              "Ức gà luộc với rau luộc",
+              "Cá hấp với rau củ",
+              "Salad lớn với protein nạc",
+              "Súp rau củ không dầu"
+            ]
+          },
+          "snack": {
+            "title": "Bữa Phụ",
+            "calories": "50-100 calories",
+            "details": [
+              "Rau củ sống (cà chua, dưa leo)",
+              "Trái cây ít đường",
+              "Nước detox chanh",
+              "Rau xanh luộc"
+            ]
+          },
+          "dinner": {
+            "title": "Bữa Tối",
+            "calories": "250-350 calories",
+            "details": [
+              "Cá hấp với rau luộc",
+              "Ức gà nướng với salad",
+              "Súp rau củ thanh nhẹ",
+              "Đậu phụ hấp với rau"
+            ]
+          }
+        }
+      }
+    },
+    "workoutPlan": {
+      "title": "LỘ TRÌNH TẬP LUYỆN",
+      "exerciseTitle": "Các Bài Tập Được Đề Xuất",
+      "underweight": {
+        "heading": "để Tăng Cơ",
+        "headingHighlight": "Lộ Trình",
+        "description": "Tập trung vào tập tạ và xây dựng cơ bắp để tăng cân lành mạnh",
+        "goal": "Tăng khối cơ",
+        "duration": "60-90 phút/buổi",
+        "frequency": "4-5 ngày/tuần",
+        "exercises": [
+          {
+            "name": "Squats (Gánh tạ ngồi xổm)",
+            "description": "Bài tập cơ bản cho chân và mông, tăng sức mạnh toàn thân",
+            "sets": "4 sets x 8-12 reps",
+            "duration": "Nghỉ 2-3 phút giữa các set"
+          },
+          {
+            "name": "Bench Press (Nằm đẩy tạ)",
+            "description": "Xây dựng cơ ngực, vai và tay sau",
+            "sets": "4 sets x 8-10 reps",
+            "duration": "Nghỉ 2-3 phút"
+          },
+          {
+            "name": "Deadlifts (Kéo tạ đứng)",
+            "description": "Tăng cường cơ lưng, chân và core",
+            "sets": "3 sets x 6-8 reps",
+            "duration": "Nghỉ 3-4 phút"
+          },
+          {
+            "name": "Pull-ups (Kéo xà đơn)",
+            "description": "Phát triển cơ lưng và tay",
+            "sets": "3 sets x max reps",
+            "duration": "Nghỉ 2 phút"
+          },
+          {
+            "name": "Shoulder Press (Đẩy tạ qua đầu)",
+            "description": "Xây dựng cơ vai mạnh mẽ",
+            "sets": "3 sets x 10-12 reps",
+            "duration": "Nghỉ 2 phút"
+          }
+        ]
+      },
+      "normal": {
+        "heading": "để Duy Trì",
+        "headingHighlight": "Lộ Trình",
+        "description": "Kết hợp cardio và tạ để duy trì thể hình và sức khỏe",
+        "goal": "Duy trì cơ và thể lực",
+        "duration": "45-60 phút/buổi",
+        "frequency": "4-5 ngày/tuần",
+        "exercises": [
+          {
+            "name": "Chạy bộ/Cardio",
+            "description": "Duy trì sức khỏe tim mạch",
+            "sets": "3-4 lần/tuần",
+            "duration": "30-45 phút/lần"
+          },
+          {
+            "name": "Full Body Workout",
+            "description": "Squats, push-ups, lunges, planks",
+            "sets": "3 sets x 12-15 reps",
+            "duration": "Nghỉ 1-2 phút"
+          },
+          {
+            "name": "HIIT Training",
+            "description": "Tập luyện cường độ cao ngắt quãng",
+            "sets": "20 phút",
+            "duration": "2 lần/tuần"
+          },
+          {
+            "name": "Core Strengthening",
+            "description": "Plank, crunches, Russian twists",
+            "sets": "3 sets x 15-20 reps",
+            "duration": "Mỗi ngày"
+          },
+          {
+            "name": "Stretching & Yoga",
+            "description": "Tăng độ linh hoạt",
+            "sets": "15-20 phút",
+            "duration": "Sau mỗi buổi tập"
+          }
+        ]
+      },
+      "overweight": {
+        "heading": "để Đốt Mỡ",
+        "headingHighlight": "Lộ Trình",
+        "description": "Tập cardio và tạ nhẹ để giảm mỡ và tăng trao đổi chất",
+        "goal": "Giảm mỡ thừa",
+        "duration": "45-60 phút/buổi",
+        "frequency": "5-6 ngày/tuần",
+        "exercises": [
+          {
+            "name": "Đi bộ nhanh/Chạy bộ",
+            "description": "Đốt cháy calo hiệu quả, an toàn cho khớp",
+            "sets": "Hàng ngày",
+            "duration": "40-60 phút"
+          },
+          {
+            "name": "Đạp xe/Xe đạp tĩnh",
+            "description": "Cardio ít tác động đến khớp",
+            "sets": "4-5 lần/tuần",
+            "duration": "30-45 phút"
+          },
+          {
+            "name": "Bơi lội",
+            "description": "Toàn thân, không gây áp lực khớp",
+            "sets": "3 lần/tuần",
+            "duration": "30-40 phút"
+          },
+          {
+            "name": "Circuit Training",
+            "description": "Burpees, mountain climbers, jumping jacks",
+            "sets": "3 vòng x 10-15 reps",
+            "duration": "Nghỉ 30s giữa các bài"
+          },
+          {
+            "name": "Strength Training nhẹ",
+            "description": "Tạ nhẹ, nhiều lần lặp",
+            "sets": "3 sets x 15-20 reps",
+            "duration": "3 lần/tuần"
+          }
+        ]
+      },
+      "obese": {
+        "heading": "để Giảm Cân",
+        "headingHighlight": "Lộ Trình",
+        "description": "Bắt đầu nhẹ nhàng, tập trung cardio ít tác động và xây dựng thói quen",
+        "goal": "Giảm cân an toàn",
+        "duration": "30-45 phút/buổi",
+        "frequency": "5-6 ngày/tuần",
+        "exercises": [
+          {
+            "name": "Đi bộ",
+            "description": "An toàn, hiệu quả, phù hợp mọi trình độ",
+            "sets": "Hàng ngày",
+            "duration": "30-45 phút, tăng dần"
+          },
+          {
+            "name": "Bơi lội/Aerobic nước",
+            "description": "Không gây áp lực lên khớp",
+            "sets": "3-4 lần/tuần",
+            "duration": "20-30 phút"
+          },
+          {
+            "name": "Xe đạp tĩnh",
+            "description": "Cardio an toàn cho người béo phì",
+            "sets": "4-5 lần/tuần",
+            "duration": "20-30 phút"
+          },
+          {
+            "name": "Ghế tập (Seated exercises)",
+            "description": "Tập tay, vai khi ngồi",
+            "sets": "3 sets x 12-15 reps",
+            "duration": "Mỗi ngày"
+          },
+          {
+            "name": "Yoga nhẹ/Stretching",
+            "description": "Tăng độ linh hoạt, giảm stress",
+            "sets": "3-4 lần/tuần",
+            "duration": "15-20 phút"
+          }
+        ]
+      }
+    },
+    "aiAdvisor": {
+      "title": "AI Tư Vấn Thông Minh",
+      "subtitle": "Trợ lý ảo của bạn",
+      "welcome": "Xin chào! Tôi là trợ lý AI của FitNet Fitness. Hãy hỏi tôi bất cứ điều gì về sức khỏe, dinh dưỡng và tập luyện!",
+      "bmiInfo": "BMI của bạn là {{bmi}} ({{status}})",
+      "placeholder": "Nhập câu hỏi của bạn...",
+      "error": "Xin lỗi, đã có lỗi xảy ra. Vui lòng thử lại."
+    }
   }
 }

@@ -316,5 +316,401 @@
     },
     "success": "Login successful!",
     "error": "Login failed. Please check your credentials."
+  },
+  "bmi": {
+    "title": "BMI CALCULATOR",
+    "heading": "Calculate Your",
+    "headingHighlight": "Body Mass Index",
+    "description": "Discover your BMI and get personalized health recommendations based on your body metrics",
+    "helper": "Enter your height and weight to calculate your BMI",
+    "heightLabel": "Height",
+    "heightPlaceholder": "Enter your height",
+    "weightLabel": "Weight",
+    "weightPlaceholder": "Enter your weight",
+    "calculate": "Calculate BMI",
+    "result": "Your Result",
+    "bmiValue": "BMI Value",
+    "recommendation": "Health Recommendation",
+    "validation": {
+      "completeFields": "Please complete all fields",
+      "positiveValues": "Please enter positive values",
+      "realisticValues": "Please enter realistic values"
+    },
+    "statusLabels": {
+      "underweight": "Underweight",
+      "normal": "Normal Weight",
+      "overweight": "Overweight",
+      "obese": "Obese",
+      "pending": "Calculate to see result"
+    },
+    "statusDescriptions": {
+      "underweight": "Your BMI indicates you may be underweight. Consider consulting with a nutritionist to develop a healthy weight gain plan.",
+      "normal": "Congratulations! Your BMI is in the healthy range. Maintain your current lifestyle with regular exercise and balanced nutrition.",
+      "overweight": "Your BMI indicates you may be overweight. Consider adopting a healthier diet and increasing physical activity.",
+      "obese": "Your BMI indicates obesity. We recommend consulting with healthcare professionals for a comprehensive health plan."
+    },
+    "mealPlan": {
+      "title": "NUTRITION GUIDE",
+      "underweight": {
+        "heading": "for Weight Gain",
+        "headingHighlight": "Meal Plan",
+        "description": "High-calorie, nutrient-rich diet to help you gain weight healthily",
+        "items": {
+          "breakfast": {
+            "title": "Breakfast",
+            "calories": "600-700 calories",
+            "details": [
+              "Oatmeal with whole milk, banana, cashews",
+              "Whole grain bread with peanut butter, eggs",
+              "Protein smoothie with avocado, banana, milk",
+              "Full-fat yogurt with granola and honey"
+            ]
+          },
+          "lunch": {
+            "title": "Lunch",
+            "calories": "700-800 calories",
+            "details": [
+              "White rice, beef/chicken, stir-fried vegetables",
+              "Pasta with cream sauce and ground beef",
+              "Chicken rice with rich sauce",
+              "Grilled salmon with buttered mashed potatoes"
+            ]
+          },
+          "snack": {
+            "title": "Snack",
+            "calories": "300-400 calories",
+            "details": [
+              "Cashews, almonds, walnuts",
+              "Full-fat yogurt with fruits",
+              "Peanut butter sandwich",
+              "Whey protein shake"
+            ]
+          },
+          "dinner": {
+            "title": "Dinner",
+            "calories": "600-700 calories",
+            "details": [
+              "Beef steak with sweet potato",
+              "Grilled salmon with rice and vegetables",
+              "Pasta with tomato meat sauce",
+              "Grilled chicken with quinoa and avocado"
+            ]
+          }
+        }
+      },
+      "normal": {
+        "heading": "for Maintenance",
+        "headingHighlight": "Meal Plan",
+        "description": "Balanced diet to maintain optimal weight and health",
+        "items": {
+          "breakfast": {
+            "title": "Breakfast",
+            "calories": "400-500 calories",
+            "details": [
+              "Oatmeal with berries and nuts",
+              "Boiled eggs with whole grain toast",
+              "Protein smoothie with greens",
+              "Greek yogurt with granola"
+            ]
+          },
+          "lunch": {
+            "title": "Lunch",
+            "calories": "500-600 calories",
+            "details": [
+              "Grilled chicken with brown rice",
+              "Salmon salad with olive oil",
+              "Chicken pho, low oil",
+              "Lean beef with vegetables"
+            ]
+          },
+          "snack": {
+            "title": "Snack",
+            "calories": "150-200 calories",
+            "details": [
+              "Fresh fruits",
+              "Mixed nuts (30g)",
+              "Sugar-free yogurt",
+              "Vegetables with hummus"
+            ]
+          },
+          "dinner": {
+            "title": "Dinner",
+            "calories": "400-500 calories",
+            "details": [
+              "Grilled fish with steamed vegetables",
+              "Chicken breast with broccoli",
+              "Tofu stir-fry with vegetables",
+              "Protein salad with chicken"
+            ]
+          }
+        }
+      },
+      "overweight": {
+        "heading": "for Weight Loss",
+        "headingHighlight": "Meal Plan",
+        "description": "Low-calorie, high-protein diet for effective weight loss",
+        "items": {
+          "breakfast": {
+            "title": "Breakfast",
+            "calories": "300-400 calories",
+            "details": [
+              "Boiled eggs with greens",
+              "Oatmeal with unsweetened milk",
+              "Green protein smoothie",
+              "Greek yogurt with berries"
+            ]
+          },
+          "lunch": {
+            "title": "Lunch",
+            "calories": "400-500 calories",
+            "details": [
+              "Grilled chicken breast with salad",
+              "Steamed fish with boiled vegetables",
+              "Vegetable soup with tofu",
+              "Small brown rice with lean meat"
+            ]
+          },
+          "snack": {
+            "title": "Snack",
+            "calories": "100-150 calories",
+            "details": [
+              "Fresh fruit (apple, orange)",
+              "Raw vegetables",
+              "Sugar-free yogurt",
+              "Almonds (15-20 pieces)"
+            ]
+          },
+          "dinner": {
+            "title": "Dinner",
+            "calories": "300-400 calories",
+            "details": [
+              "Grilled fish with steamed vegetables",
+              "Chicken salad, no oil",
+              "Vegetable soup",
+              "Steamed tofu with vegetables"
+            ]
+          }
+        }
+      },
+      "obese": {
+        "heading": "for Rapid Weight Loss",
+        "headingHighlight": "Meal Plan",
+        "description": "Strict calorie-controlled diet, focused on protein and vegetables",
+        "items": {
+          "breakfast": {
+            "title": "Breakfast",
+            "calories": "250-350 calories",
+            "details": [
+              "Boiled eggs + steamed greens",
+              "Sugar-free Greek yogurt",
+              "Low-sugar oatmeal with berries",
+              "Unsweetened green smoothie"
+            ]
+          },
+          "lunch": {
+            "title": "Lunch",
+            "calories": "350-450 calories",
+            "details": [
+              "Boiled chicken breast with boiled vegetables",
+              "Steamed fish with vegetables",
+              "Large salad with lean protein",
+              "Oil-free vegetable soup"
+            ]
+          },
+          "snack": {
+            "title": "Snack",
+            "calories": "50-100 calories",
+            "details": [
+              "Raw vegetables (tomatoes, cucumbers)",
+              "Low-sugar fruits",
+              "Lemon detox water",
+              "Steamed greens"
+            ]
+          },
+          "dinner": {
+            "title": "Dinner",
+            "calories": "250-350 calories",
+            "details": [
+              "Steamed fish with boiled vegetables",
+              "Grilled chicken breast with salad",
+              "Light vegetable soup",
+              "Steamed tofu with vegetables"
+            ]
+          }
+        }
+      }
+    },
+    "workoutPlan": {
+      "title": "WORKOUT PLAN",
+      "exerciseTitle": "Recommended Exercises",
+      "underweight": {
+        "heading": "for Muscle Gain",
+        "headingHighlight": "Workout Plan",
+        "description": "Focus on weight training and muscle building for healthy weight gain",
+        "goal": "Build muscle mass",
+        "duration": "60-90 min/session",
+        "frequency": "4-5 days/week",
+        "exercises": [
+          {
+            "name": "Squats",
+            "description": "Essential leg and glute exercise, builds total body strength",
+            "sets": "4 sets x 8-12 reps",
+            "duration": "Rest 2-3 min between sets"
+          },
+          {
+            "name": "Bench Press",
+            "description": "Build chest, shoulders and triceps",
+            "sets": "4 sets x 8-10 reps",
+            "duration": "Rest 2-3 min"
+          },
+          {
+            "name": "Deadlifts",
+            "description": "Strengthen back, legs and core",
+            "sets": "3 sets x 6-8 reps",
+            "duration": "Rest 3-4 min"
+          },
+          {
+            "name": "Pull-ups",
+            "description": "Develop back and arm muscles",
+            "sets": "3 sets x max reps",
+            "duration": "Rest 2 min"
+          },
+          {
+            "name": "Shoulder Press",
+            "description": "Build strong shoulders",
+            "sets": "3 sets x 10-12 reps",
+            "duration": "Rest 2 min"
+          }
+        ]
+      },
+      "normal": {
+        "heading": "for Maintenance",
+        "headingHighlight": "Workout Plan",
+        "description": "Combine cardio and weights to maintain fitness and health",
+        "goal": "Maintain muscle and fitness",
+        "duration": "45-60 min/session",
+        "frequency": "4-5 days/week",
+        "exercises": [
+          {
+            "name": "Running/Cardio",
+            "description": "Maintain cardiovascular health",
+            "sets": "3-4 times/week",
+            "duration": "30-45 min/session"
+          },
+          {
+            "name": "Full Body Workout",
+            "description": "Squats, push-ups, lunges, planks",
+            "sets": "3 sets x 12-15 reps",
+            "duration": "Rest 1-2 min"
+          },
+          {
+            "name": "HIIT Training",
+            "description": "High-intensity interval training",
+            "sets": "20 minutes",
+            "duration": "2 times/week"
+          },
+          {
+            "name": "Core Strengthening",
+            "description": "Plank, crunches, Russian twists",
+            "sets": "3 sets x 15-20 reps",
+            "duration": "Daily"
+          },
+          {
+            "name": "Stretching & Yoga",
+            "description": "Improve flexibility",
+            "sets": "15-20 min",
+            "duration": "After each workout"
+          }
+        ]
+      },
+      "overweight": {
+        "heading": "for Fat Burning",
+        "headingHighlight": "Workout Plan",
+        "description": "Cardio and light weights to burn fat and boost metabolism",
+        "goal": "Reduce body fat",
+        "duration": "45-60 min/session",
+        "frequency": "5-6 days/week",
+        "exercises": [
+          {
+            "name": "Brisk Walking/Jogging",
+            "description": "Effective calorie burn, safe for joints",
+            "sets": "Daily",
+            "duration": "40-60 min"
+          },
+          {
+            "name": "Cycling/Stationary Bike",
+            "description": "Low-impact cardio",
+            "sets": "4-5 times/week",
+            "duration": "30-45 min"
+          },
+          {
+            "name": "Swimming",
+            "description": "Full body, no joint pressure",
+            "sets": "3 times/week",
+            "duration": "30-40 min"
+          },
+          {
+            "name": "Circuit Training",
+            "description": "Burpees, mountain climbers, jumping jacks",
+            "sets": "3 rounds x 10-15 reps",
+            "duration": "Rest 30s between exercises"
+          },
+          {
+            "name": "Light Strength Training",
+            "description": "Light weights, high repetitions",
+            "sets": "3 sets x 15-20 reps",
+            "duration": "3 times/week"
+          }
+        ]
+      },
+      "obese": {
+        "heading": "for Weight Loss",
+        "headingHighlight": "Workout Plan",
+        "description": "Start gentle, focus on low-impact cardio and building habits",
+        "goal": "Safe weight loss",
+        "duration": "30-45 min/session",
+        "frequency": "5-6 days/week",
+        "exercises": [
+          {
+            "name": "Walking",
+            "description": "Safe, effective, suitable for all levels",
+            "sets": "Daily",
+            "duration": "30-45 min, gradually increase"
+          },
+          {
+            "name": "Swimming/Water Aerobics",
+            "description": "No pressure on joints",
+            "sets": "3-4 times/week",
+            "duration": "20-30 min"
+          },
+          {
+            "name": "Stationary Bike",
+            "description": "Safe cardio for obese individuals",
+            "sets": "4-5 times/week",
+            "duration": "20-30 min"
+          },
+          {
+            "name": "Seated Exercises",
+            "description": "Arm and shoulder work while seated",
+            "sets": "3 sets x 12-15 reps",
+            "duration": "Daily"
+          },
+          {
+            "name": "Gentle Yoga/Stretching",
+            "description": "Improve flexibility, reduce stress",
+            "sets": "3-4 times/week",
+            "duration": "15-20 min"
+          }
+        ]
+      }
+    },
+    "aiAdvisor": {
+      "title": "AI Smart Advisor",
+      "subtitle": "Your virtual assistant",
+      "welcome": "Hello! I'm FitNet Fitness AI assistant. Ask me anything about health, nutrition and fitness!",
+      "bmiInfo": "Your BMI is {{bmi}} ({{status}})",
+      "placeholder": "Type your question...",
+      "error": "Sorry, an error occurred. Please try again."
+    }
   }
 }

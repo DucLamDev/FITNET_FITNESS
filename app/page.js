@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Services from '@/components/Services'
+import BmiCalculator from '@/components/BmiCalculator'
 import Pricing from '@/components/Pricing'
 import Testimonials from '@/components/Testimonials'
 import Gallery from '@/components/Gallery'
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
+      <BmiCalculator />
       <Pricing />
       <Testimonials />
       <Gallery />
