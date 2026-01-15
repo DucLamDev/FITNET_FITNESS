@@ -40,9 +40,14 @@ const AiAdvisor = ({ bmi, status, height, weight }) => {
       if (data.success) {
         setMessages(prev => [...prev, { role: 'assistant', content: data.response }])
       } else {
+        // Handle rate limit specifically
+        const errorMessage = response.status === 429 
+          ? 'AI đang bận, vui lòng đợi 1 phút và thử lại.'
+          : t('aiAdvisor.error')
+          
         setMessages(prev => [...prev, { 
           role: 'assistant', 
-          content: t('aiAdvisor.error') 
+          content: errorMessage
         }])
       }
     } catch (error) {

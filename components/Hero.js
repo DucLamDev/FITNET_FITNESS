@@ -1,14 +1,12 @@
 'use client'
 
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { FaPlay, FaArrowRight, FaTimes } from 'react-icons/fa'
+import { FaArrowRight } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
-import { useState } from 'react'
 
 const Hero = () => {
   const { t } = useTranslation()
-  const [showVideo, setShowVideo] = useState(false)
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Parallax Effect */}
@@ -72,14 +70,6 @@ const Hero = () => {
                 {t('hero.bookNow')}
                 <FaArrowRight className="inline ml-2 group-hover:translate-x-2 transition-transform" />
               </Link>
-              
-              <button 
-                onClick={() => setShowVideo(true)}
-                className="btn-secondary group"
-              >
-                <FaPlay className="inline mr-2" />
-                {t('hero.watchVideo')}
-              </button>
             </motion.div>
 
             {/* Stats */}
@@ -96,50 +86,6 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-
-      {/* Video Modal */}
-      <AnimatePresence>
-        {showVideo && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 px-4"
-            onClick={() => setShowVideo(false)}
-          >
-            <motion.div
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.8, opacity: 0 }}
-              transition={{ duration: 0.3 }}
-              className="relative w-full max-w-4xl"
-              onClick={(e) => e.stopPropagation()}
-            >
-              {/* Close Button */}
-              <button
-                onClick={() => setShowVideo(false)}
-                className="absolute -top-12 right-0 text-white hover:text-primary transition-colors text-2xl"
-              >
-                <FaTimes />
-              </button>
-
-              {/* Video Container */}
-              <div className="relative aspect-video bg-black rounded-lg overflow-hidden shadow-2xl">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/watch?v=U8ryi1OzIos"
-                  title="FitNet Fitness - Video Giới Thiệu"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="absolute inset-0"
-                ></iframe>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
 
       {/* Scroll Indicator */}
       <motion.div
