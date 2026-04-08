@@ -2,13 +2,13 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { 
-  FaDumbbell, 
-  FaRunning, 
-  FaHeartbeat, 
-  FaAppleAlt, 
-  FaUsers, 
-  FaYinYang 
+import {
+  FaDumbbell,
+  FaRunning,
+  FaHeartbeat,
+  FaAppleAlt,
+  FaUsers,
+  FaYinYang
 } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 
@@ -19,42 +19,42 @@ const Services = () => {
       icon: FaDumbbell,
       title: t('services.items.personalTraining.title'),
       description: t('services.items.personalTraining.description'),
-      image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1170',
+      image: '/cac-dich-vu/huan-luyen-ca-nhan.jpg',
       slug: 'personal-training'
     },
     {
       icon: FaUsers,
       title: t('services.items.groupClasses.title'),
       description: t('services.items.groupClasses.description'),
-      image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1170',
+      image: '/cac-dich-vu/lop-tap-nhom.jpg',
       slug: 'group-classes'
     },
     {
       icon: FaAppleAlt,
       title: t('services.items.nutrition.title'),
       description: t('services.items.nutrition.description'),
-      image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1153',
+      image: '/cac-dich-vu/tu-van-dinh-duong.webp',
       slug: 'nutrition'
     },
     {
       icon: FaYinYang,
       title: t('services.items.yoga.title'),
       description: t('services.items.yoga.description'),
-      image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1220',
+      image: '/thu-vien-anh/hinh-nu-gymer-xinh-dep_043029028.jpg',
       slug: 'yoga'
     },
     {
       icon: FaRunning,
       title: t('services.items.cardio.title'),
       description: t('services.items.cardio.description'),
-      image: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=1170',
+      image: '/cac-dich-vu/tap-cardio.jpg',
       slug: 'cardio'
     },
     {
       icon: FaHeartbeat,
       title: t('services.items.weightManagement.title'),
       description: t('services.items.weightManagement.description'),
-      image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1170',
+      image: '/cac-dich-vu/quan-ly-can-nang.png',
       slug: 'weight-management'
     }
   ]
@@ -62,7 +62,6 @@ const Services = () => {
   return (
     <section id="services" className="section-padding bg-dark">
       <div className="container-custom">
-        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -81,7 +80,6 @@ const Services = () => {
           </p>
         </motion.div>
 
-        {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <motion.div
@@ -90,31 +88,29 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative overflow-hidden rounded-xl bg-dark-100 hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500"
+              className="group relative overflow-hidden rounded-xl bg-dark-100 hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500 min-h-[320px]"
             >
-              {/* Background Image */}
-              <div 
-                className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+              <div
+                className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
                 style={{ backgroundImage: `url(${service.image})` }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/80 to-dark/50"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/35 to-transparent"></div>
               </div>
 
-              {/* Content */}
-              <div className="relative z-10 p-8 h-full flex flex-col">
-                <div className="bg-gradient-primary w-16 h-16 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="relative z-10 p-8 h-full flex flex-col justify-end">
+                <div className="bg-gradient-primary w-16 h-16 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-primary/20">
                   <service.icon className="text-white text-3xl" />
                 </div>
-                
-                <h3 className="font-display text-2xl mb-4 group-hover:text-primary transition-colors">
+
+                <h3 className="font-display text-2xl mb-4 text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)] group-hover:text-primary transition-colors">
                   {service.title}
                 </h3>
-                
-                <p className="text-gray-400 flex-grow">
+
+                <p className="text-gray-100 text-lg leading-8 max-w-[28ch] drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)]">
                   {service.description}
                 </p>
 
-                <Link 
+                <Link
                   href={`/services/${service.slug}`}
                   className="mt-6 text-primary font-bold flex items-center group-hover:translate-x-2 transition-transform"
                 >
